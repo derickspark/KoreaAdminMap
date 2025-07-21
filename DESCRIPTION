@@ -4,7 +4,7 @@ Title: Korean Administrative Boundary Maps
 Version: 0.1.0
 Author: Your Name
 Maintainer: Your Name <your@email.com>
-Description: Provides functions to load Korean administrative boundary shapefiles (시도, 시군구, 읍면동).
+Description: Provides functions to load Korean administrative boundary data in GeoPackage format (시도, 시군구, 읍면동).
 Depends: R (>= 3.5.0)
 Imports:
     sf
