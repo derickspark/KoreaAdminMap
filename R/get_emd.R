@@ -2,6 +2,6 @@
 #' @return sf 객체
 #' @export
 get_emd <- function() {
-  gpkg_path <- system.file("extdata", "emd.gpkg", package = "admin_map_KR")
+  gpkg_path <- system.file("extdata", "emd.gpkg", package = "KoreaAdminMap")
   sf::st_read(gpkg_path, layer = "emd", quiet = TRUE)
 }
