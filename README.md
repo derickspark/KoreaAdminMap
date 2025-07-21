@@ -14,4 +14,4 @@ install_github 설치 후 바로 함수 한 줄로 각 레이어를 불러올 �
 # remotes 패키지가 없으면 먼저 설치
 install.packages("remotes")
 # github에서 패키지 설치
-remotes::install_github("yourID/admin_map_KR")
+remotes::install_github("derickspark/admin_map_KR")
